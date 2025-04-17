@@ -1,6 +1,7 @@
 using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
+using NUnit.Framework.Internal;
 
 
 public class UIController : MonoBehaviour
@@ -18,9 +19,16 @@ public class UIController : MonoBehaviour
     public TMP_Dropdown dropdown;
     public TMP_InputField inputField;
 
+    public Test test;
+
+    [SerializeField]
+    private Sprite p_sprite;
+
 
     private void Start()
     {
+        
+        
         //image.sprite = texture.sprite
         image.sprite = sprite;
         rawImage.texture = texture;
