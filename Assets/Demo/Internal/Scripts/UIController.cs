@@ -24,6 +24,13 @@ public class UIController : MonoBehaviour
     [SerializeField]
     private Sprite p_sprite;
 
+    /*
+     * public => 외부 접근 가능, 인스펙터 노출
+     * private => 외부 접근 불가능, 인스펙터 노출x SerializeField사용시 노출가능 (가장 많이 사용)
+     * protected => 외부 접근 불가능, 상속받은 클래스에서만 사용 가능
+     * 
+     */
+
 
     private void Start()
     {
@@ -37,7 +44,7 @@ public class UIController : MonoBehaviour
         text2.text = "No Hello";
 
         dropdown.options.Clear();
-        dropdown.options.Add(new TMP_Dropdown.OptionData("���� �ɼ�"));
+        dropdown.options.Add(new TMP_Dropdown.OptionData("나의 옵션"));
     }
 
     public void ToggleClick(bool isOn)

@@ -1,4 +1,4 @@
-using UnityEngine;
+ï»¿using UnityEngine;
 using UnityEngine.UI;
 
 public class Test : MonoBehaviour
@@ -10,25 +10,25 @@ public class Test : MonoBehaviour
     [SerializeField]
     private int mynum;
 
-    //º¯¼ö => µ¥ÀÌÅÍ¸¦ ÀúÀåÇÏ´Â °ø°£,
-    // ¼ıÀÚ, ¹®ÀÚ, ¿ÀºêÁ§Æ® ´Ù¾çÇÑ ÇüÅÂ°¡´É
+    //ë³€ìˆ˜ => ë°ì´í„°ë¥¼ ì €ì¥í•˜ëŠ” ê³µê°„,
+    // ìˆ«ì, ë¬¸ì, ì˜¤ë¸Œì íŠ¸ ë‹¤ì–‘í•œ í˜•íƒœê°€ëŠ¥
 
    
-    float nums = 0.1f; //¼Ò¼öÁ¡ÀÌ µé¾î°¡´Â ¼ıÀÚ float
+    float nums = 0.1f; //ì†Œìˆ˜ì ì´ ë“¤ì–´ê°€ëŠ” ìˆ«ì float
     //double
     double num2 = 0;
-    string chareset = "abcd"; //¹®ÀÚ¿­
+    string chareset = "abcd"; //ë¬¸ìì—´
     bool isOn = false; // false, true
     GameObject gObject;
 
-    private int number = 0; //Á¤¼ö -1,0,1,2,3,4,5,6
+    private int number = 0; //ì •ìˆ˜ -1,0,1,2,3,4,5,6
     public int myProperty
     {
         get
         {
             return number;
         }
-        private set //¼¼ÆÃ °á°ú°ª
+        private set //ì„¸íŒ… ê²°ê³¼ê°’
         {
             isOn = true;
             number = value +1; //35
@@ -37,7 +37,7 @@ public class Test : MonoBehaviour
 
 
     public int callMyNum { get { return number; } }
-    public int callMyNum2 => number; //¶÷´Ù ÇÔ¼ö
+    public int callMyNum2 => number; //ëŒë‹¤ í•¨ìˆ˜
 
     //f(x) = y
     private void Start()
@@ -62,7 +62,7 @@ public class Test : MonoBehaviour
         //f(x)
         //f(x,y)
         //f(x,y,z)
-        //°ø°İ¸ğ¼Ç ÇÃ·¹ÀÌ
+        //ê³µê²©ëª¨ì…˜ í”Œë ˆì´
         damage += AttackPower(damage);
         damage = damage + 1;
     }
