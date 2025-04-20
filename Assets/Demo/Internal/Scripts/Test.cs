@@ -1,4 +1,4 @@
-﻿using UnityEngine;
+using UnityEngine;
 using UnityEngine.UI;
 
 public class Test : MonoBehaviour
@@ -14,12 +14,8 @@ public class Test : MonoBehaviour
     // 숫자, 문자, 오브젝트 다양한 형태가능
 
    
-    float nums = 0.1f; //소수점이 들어가는 숫자 float
-    //double
-    double num2 = 0;
-    string chareset = "abcd"; //문자열
-    bool isOn = false; // false, true
-    GameObject gObject;
+ 
+
 
     private int number = 0; //정수 -1,0,1,2,3,4,5,6
     public int myProperty
@@ -30,7 +26,7 @@ public class Test : MonoBehaviour
         }
         private set //세팅 결과값
         {
-            isOn = true;
+           // isOn = true;
             number = value +1; //35
         }
     }

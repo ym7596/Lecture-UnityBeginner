@@ -7,7 +7,7 @@ public class CoroutineTest : MonoBehaviour
 {
     //유니티느ㄴ 메인스레드만 사용을 하는데.
     private bool myBool = false;
-    Coroutine myCoroutine = null;
+   // Coroutine myCoroutine = null;
     //코루틴
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()

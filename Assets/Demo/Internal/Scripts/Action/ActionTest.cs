@@ -6,7 +6,7 @@ public class ActionTest : MonoBehaviour
 {
     public Action firstAction;
     public Action<int> firstActionint;
-    public event Action secondAction;
+   // public event Action secondAction;
 
     private void Start()
     {

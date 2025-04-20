@@ -9,8 +9,8 @@ public class EventTest : MonoBehaviour
         _actionTest.firstAction = ActionFunc;
         _actionTest.firstAction = null;
         _actionTest.firstAction += ActionFunc;
-        _actionTest.secondAction += ActionFunc;
-        _actionTest.secondAction -= ActionFunc;
+      //  _actionTest.secondAction += ActionFunc;
+      //  _actionTest.secondAction -= ActionFunc;
 
 
     }
