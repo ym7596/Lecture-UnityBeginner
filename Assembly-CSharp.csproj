@@ -123,6 +123,7 @@
     <Compile Include="Assets\Demo\Internal\Scripts\TankData\TankManager.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextEventCheck.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TextMeshProFloatingText.cs" />
+    <Compile Include="Assets\Demo\Internal\Scripts\Instance\InstanceTest.cs" />
     <Compile Include="Assets\Demo\Internal\Scripts\Car.cs" />
     <Compile Include="Assets\unity-chan!\Unity-chan! Model\Scripts\IdleChanger.cs" />
     <Compile Include="Assets\Demo\Internal\Scripts\Loop.cs" />
