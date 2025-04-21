@@ -18,10 +18,10 @@ MonoBehaviour:
     moveSpeed: 10
     attackPower: 30
     upgradeState: 0
-    tankPrefab: {fileID: 0}
+    tankPrefab: {fileID: 682446667418789792, guid: 8004c8db0813ed2449446e8e7f322c71, type: 3}
   - name: FastTank
     hp: 50
     moveSpeed: 20
     attackPower: 10
     upgradeState: 0
-    tankPrefab: {fileID: 0}
+    tankPrefab: {fileID: 4945066748408228162, guid: 3dcce64875265484e89a4c829105142b, type: 3}
